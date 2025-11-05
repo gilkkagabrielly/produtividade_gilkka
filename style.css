@@ -1,0 +1,26 @@
+/* Copilot: estilo moderno inspirado em players musicais (tonalidade escura + verde) */
+:root{
+--bg: #0f1115;
+--card: #121316;
+--muted: #9aa3a8;
+--accent: #1db954; /* verde tipo Spotify */
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter, system-ui, Arial, sans-serif;background:linear-gradient(180deg,var(--bg),#0b0c0f);color:#e6eef0;min-height:100vh}
+.topbar{padding:28px 32px;border-bottom:1px solid rgba(255,255,255,0.03)}
+.topbar h1{font-size:28px;letter-spacing:0.4px}
+.sub{color:var(--muted);margin-top:6px}
+.controls{padding:20px 32px}
+.controls input{width:100%;max-width:720px;padding:12px 16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);background:#0b0c0f;color:inherit}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px;padding:28px 32px}
+.musica-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:12px;display:flex;gap:12px;align-items:center;box-shadow:0 6px 18px rgba(2,6,8,0.5)}
+.musica-card img{width:72px;height:72px;border-radius:10px;object-fit:cover}
+.musica-meta{flex:1}
+.musica-meta h3{font-size:16px;margin-bottom:6px}
+.musica-meta p{color:var(--muted);font-size:13px}
+.play-btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 10px;border-radius:10px;cursor:pointer}
+.play-btn.active{background:var(--accent);color:#08120a;border:none}
+footer{padding:20px 32px;color:var(--muted);font-size:13px;text-align:center;margin-top:20px}
+
+
+/* Comentário Copilot: usamos 'display: grid' para organizar cards responsivamente sem precisar calcular larguras */
