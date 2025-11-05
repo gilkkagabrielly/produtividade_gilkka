@@ -3,7 +3,7 @@
 --bg: #0f1115;
 --card: #121316;
 --muted: #9aa3a8;
---accent: #ff6b6b; /* cor nova só para teste */
+--accent: #1db954; /* verde tipo Spotify */ 
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Inter, system-ui, Arial, sans-serif;background:linear-gradient(180deg,var(--bg),#0b0c0f);color:#e6eef0;min-height:100vh}
